@@ -4,7 +4,29 @@ body {
     margin: 0;/*marge extérieur a 0*/
     padding: 0;/*marge intérieur a 0*/
 }
-  
+
+header{
+  margin : 0 20px;
+}
+
+.wrapper{
+  height: 150px;
+}
+
+
+#logo{
+  float: left;
+}
+
+.reseauxsociaux{
+  padding: 
+  float: right;
+}
+
+.clear{
+  height: 10px;
+}
+
 /*classe qui s'applique au menu*/
 .menu {
   background-color: #333;/*couleur de l'arrière plan a #333*/
