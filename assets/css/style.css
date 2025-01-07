@@ -5,31 +5,29 @@ body {
     padding: 0;/*marge intérieur a 0*/
 }
 
-header{
-  margin : 0 20px;
-}
+
 
 .wrapper{
+  background-color: #142654;
   height: 150px;
 }
 
 
 #logo{
   float: left;
+  height: 150px;
 }
 
-.reseauxsociaux{
-  padding: 
-  float: right;
+nav{
+  float: left;
+  margin: 50px 0 0 20px;
+
 }
 
-.clear{
-  height: 10px;
-}
 
 /*classe qui s'applique au menu*/
 .menu {
-  background-color: #333;/*couleur de l'arrière plan a #333*/
+  background-color: #142654;/*couleur de l'arrière plan a #333*/
   padding: 0;
 }
 
@@ -50,7 +48,7 @@ header{
   padding: 10px 20px;
   color: white;
   text-decoration: none;
-  background-color: #333;
+  background-color: #142654;
 }
 
 .menu-item a:hover {
