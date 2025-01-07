@@ -39,29 +39,40 @@ nav{
 
 .icon-reseauxsociaux a {
   display: block;
-  width: 20px;
-  height: 20px;
+  width: 40px;
+  height: 40px;
   text-decoration: none;
   color: inherit;
 }
 
 .icon-reseauxsociaux a:hover {
-  background-color: #828282;
+  background-color: #076EA9;
 }
+
 
 .textes_footer{
   list-style-type: none;
-  text-align: center;
 }
 
-
 .textes_footer li{
-  color: white;
   margin: 120px 0;
-  margin-right: 10px;
+  margin-right: 20px;
   display: inline-block;
 }
 
+.textes_footer li a:link{
+  color: white;
+  text-decoration: none;
+}
+
+.textes_footer li a:visited{
+  color: white;
+}
+
+.textes_footer li a:hover{
+  color: #076EA9;
+
+}
 
 /*classe qui s'applique au menu*/
 .menu {
