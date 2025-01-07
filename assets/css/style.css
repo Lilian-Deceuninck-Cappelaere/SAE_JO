@@ -32,12 +32,12 @@ nav{
   float: right;
 }
 
-.icon-reseauxsociaux li {
+.icon-reseauxsociaux li{
   display: inline-block;
   margin-right: 10px;
 }
 
-.icon-reseauxsociaux a {
+.icon-reseauxsociaux a{
   display: block;
   width: 40px;
   height: 40px;
@@ -45,7 +45,7 @@ nav{
   color: inherit;
 }
 
-.icon-reseauxsociaux a:hover {
+.icon-reseauxsociaux a:hover{
   background-color: #076EA9;
 }
 
