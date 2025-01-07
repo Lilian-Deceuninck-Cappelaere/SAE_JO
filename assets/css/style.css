@@ -26,9 +26,10 @@ nav{
 
 /* Icones reseaux sociaux */
 .icon-reseauxsociaux {
-  list-style: none;
+  list-style-type: none;
   padding: 0;
   margin: 0;
+  float: right;
 }
 
 .icon-reseauxsociaux li {
@@ -38,14 +39,27 @@ nav{
 
 .icon-reseauxsociaux a {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   text-decoration: none;
   color: inherit;
 }
 
 .icon-reseauxsociaux a:hover {
-  background-color: #f0f0f0;
+  background-color: #828282;
+}
+
+.textes_footer{
+  list-style-type: none;
+  text-align: center;
+}
+
+
+.textes_footer li{
+  color: white;
+  margin: 120px 0;
+  margin-right: 10px;
+  display: inline-block;
 }
 
 
@@ -85,14 +99,14 @@ nav{
   position: absolute;
   top: 100%;
   left: 0;
-  background-color: #444;
+  background-color: #828282;
   padding: 0;
   min-width: 150px;
   z-index: 1000;
 }
 
 .sousmenu li {
-  border-bottom: 1px solid #555;
+  border-bottom: 1px solid #828282;
 }
 
 .sousmenu li a {
@@ -103,7 +117,7 @@ nav{
 }
 
 .sousmenu li a:hover {
-  background-color: #666;
+  background-color: #828282;
 }
 
 /* Affichage du sous-menu au survol */
