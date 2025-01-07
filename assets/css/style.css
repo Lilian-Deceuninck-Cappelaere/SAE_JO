@@ -52,12 +52,11 @@ nav{
 
 .textes_footer{
   list-style-type: none;
-  text-align: center;
 }
 
 .textes_footer li{
   margin: 120px 0;
-  margin-right: 10px;
+  margin-right: 20px;
   display: inline-block;
 }
 
