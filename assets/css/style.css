@@ -155,7 +155,9 @@ nav{
 
     body{    font-family: Arial, sans-serif; /*met la police en Arial sans-serif*/
       margin: 0;/*marge extérieur a 0*/
-      padding: 0;/*marge intérieur a 0*/}
+      padding: 0;/*marge intérieur a 0*/
+    
+    }
     /* container des headers et footers */
     .wrapper{
       background-color: #142654;
