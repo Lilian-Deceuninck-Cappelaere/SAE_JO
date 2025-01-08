@@ -158,7 +158,7 @@ nav{
       padding: 0;/*marge intérieur a 0*/}
 /* container des headers et footers */
 .wrapper{
-  background-color: #142654;
+  background-color: red;
   height: 150px;
 }
 
@@ -166,5 +166,9 @@ nav{
 #logo{
   float: left;
   height: 150px;
+}
+
+nav{
+  display: none
 }
   }
