@@ -138,6 +138,63 @@ nav{
   display: block;
 }
 
+
+
+
+/*----------------------- 
+  Tableaux de classement 
+-----------------------*/
+.array_competition table{  /*caractéristiques générales du tableau*/
+  font-size: 24px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  }
+
+.col_flag{  /*généralités colonne des drapeaux */
+  width: 200px;
+  border-bottom: 1px solid black;
+}
+
+.col_name_state{ /*généralités colonne des noms de pays*/
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.col_winner{  /*généralités colonne des médaillés */
+  width: 600px;
+  border-bottom: 1px solid black;
+  padding-left: 4em;
+}
+
+.col_medal{ /*généralités colonnes des médailles */
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.flag{  /*taille et position des drapeaux dans les cellules*/
+  width: 150px;
+  margin: auto;
+  padding: 15px;
+}
+
+.lines{  /*hauteur et couleur de fond de la ligne de titres*/
+  height: 100px;
+  background-color: #EAEAEA;
+}
+
+.medal{  /*taille et position des médailles dans les cellules de titre*/
+  height: 100px;
+  text-align: center;
+}
+
+.cup{  /*taille et position des coupes dans le tableau de resultats*/
+  height : 75px;
+  text-align: center;
+}
+
+
 #dimension {
   width: 100%;
   height: auto;
