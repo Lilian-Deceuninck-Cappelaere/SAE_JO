@@ -164,10 +164,21 @@ footer{ /* fixation du footer en bas de page */
 
 
 
-
 /*----------------------- 
   Tableaux de classement 
 -----------------------*/
+#or {
+  background-color: gold;
+}
+
+#argent {
+  background-color: silver;
+}
+
+#bronze {
+  background-color: #cd7f32;
+}
+
 .array_competition{
   width: 75%;
   margin: 0 auto;
@@ -248,10 +259,9 @@ footer{ /* fixation du footer en bas de page */
 }
 
 
-
-
-
-
+/*----------------------- 
+  Règlement 
+-----------------------*/
 h1 {
   text-align: center;
 }
