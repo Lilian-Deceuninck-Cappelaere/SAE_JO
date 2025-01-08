@@ -10,7 +10,7 @@ body {
 
 
 /*------------------------------- 
-container des headers et footers
+ container des headers et footers
 --------------------------------*/
 .wrapper{
   background-color: #142654;
@@ -97,17 +97,30 @@ nav{
   width: 100%;
 } */
 
+/*    USERFRIENDLY
+
+. . ............/´¯/)
+. . ..........,/¯../
+. . ........../..../
+. . ........./..../
+. . ..../´¯/´...´/´¯`·¸
+. . ./´/.../..../..../¨¯\
+. ( ....´....´.......¯/´. ´)
+. . .\.................´.../
+. . ...\............._.·´
+. . .....\...........(
+
+*/
 
 
-
-
-/*classe qui s'applique au menu*/
+/*----------------------- 
+  Menu de navigation
+-----------------------*/
 .menu {
   background-color: #142654;
   padding: 0;
 }
 
-/**/
 .menu ul {
   list-style: none;
   margin: 0;
@@ -169,15 +182,15 @@ nav{
   Tableaux de classement 
 -----------------------*/
 #or {
-  background-color: gold;
+  background-color: rgba(255,215,0,0.6);
 }
 
 #argent {
-  background-color: silver;
+  background-color: rgba(192,192,192,0.6);
 }
 
 #bronze {
-  background-color: #cd7f32;
+  background-color: rgba(205,127,50,0.6);
 }
 
 .array_competition{
