@@ -90,11 +90,12 @@ nav{
   color: #076EA9;
 }
 
-footer{ /* fixation du footer en bas de page */
+/* fixation du footer en bas de page */
+/* footer{ 
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+} */
 
 
 
