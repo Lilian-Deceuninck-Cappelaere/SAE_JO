@@ -137,3 +137,57 @@ nav{
 .menu-item:hover .sousmenu {
   display: block;
 }
+
+
+
+
+/* Tableaux de classement */
+.array_competition table{
+  font-size: 24px;
+  border-collapse: collapse;
+  margin: 20px auto;
+  }
+
+.col_flag{
+  width: 200px;
+  border-bottom: 1px solid black;
+
+}
+
+.col_name_state{
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.col_winner{
+  width: 600px;
+  border-bottom: 1px solid black;
+}
+
+.col_medal{
+  width: 200px;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.flag{
+  width: 150px;
+  margin: auto;
+  padding: 15px;
+}
+
+.lines{
+  height: 100px;
+  background-color: #EAEAEA;
+}
+
+.medal{
+  height: 100px;
+  text-align: center;
+}
+
+.cup{
+  height : 75px;
+  text-align: center;
+}
