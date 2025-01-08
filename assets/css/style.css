@@ -7,7 +7,9 @@ body {
     padding: 0;/*marge intérieur a 0*/
 }
 
-
+.clear{
+  clear: both;
+}
 
 /*------------------------------- 
  container des headers et footers
@@ -97,21 +99,6 @@ nav{
   width: 100%;
 } */
 
-/*    USERFRIENDLY
-
-. . ............/´¯/)
-. . ..........,/¯../
-. . ........../..../
-. . ........./..../
-. . ..../´¯/´...´/´¯`·¸
-. . ./´/.../..../..../¨¯\
-. ( ....´....´.......¯/´. ´)
-. . .\.................´.../
-. . ...\............._.·´
-. . .....\...........(
-
-*/
-
 
 /*----------------------- 
   Menu de navigation
@@ -174,6 +161,43 @@ nav{
 /* Affichage du sous-menu au survol */
 .menu-item:hover .sousmenu {
   display: block;
+}
+
+/*----------------------- 
+      Page d'acceuil
+-----------------------*/
+
+#presentation{
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#presentation ul{
+  margin: 80px 20px;
+}
+
+#presentation ul li{
+  width: 30%;
+  list-style-type: none;
+  text-align: justify;
+  float: left;
+  margin: 0 20px;
+}
+
+#image_pongiste{
+  width: 100%;
+}
+
+#image_logo{
+  width: 100%;
+}
+
+#image_tennis{
+  width: 100%;
+}
+
+#image_match{
+  width: 100%;
 }
 
 
