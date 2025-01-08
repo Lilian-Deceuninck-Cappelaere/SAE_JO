@@ -90,6 +90,7 @@ nav{
   color: #076EA9;
 }
 
+
 /* fixation du footer en bas de page */
 /* footer{ 
   position: fixed;
@@ -274,6 +275,8 @@ h1 {
 .reglement {
   width: 600px;
   margin: 10px;
+  border: #142654 dashed 5px;
+  
 }
 
 @media only screen 
