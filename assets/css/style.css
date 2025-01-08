@@ -7,7 +7,9 @@ body {
     padding: 0;/*marge intérieur a 0*/
 }
 
-
+.clear{
+  clear: both;
+}
 
 /*------------------------------- 
  container des headers et footers
@@ -90,27 +92,13 @@ nav{
   color: #076EA9;
 }
 
+
 /* fixation du footer en bas de page */
 /* footer{ 
   position: fixed;
   bottom: 0;
   width: 100%;
 } */
-
-/*    USERFRIENDLY
-
-. . ............/´¯/)
-. . ..........,/¯../
-. . ........../..../
-. . ........./..../
-. . ..../´¯/´...´/´¯`·¸
-. . ./´/.../..../..../¨¯\
-. ( ....´....´.......¯/´. ´)
-. . .\.................´.../
-. . ...\............._.·´
-. . .....\...........(
-
-*/
 
 
 /*----------------------- 
@@ -174,6 +162,43 @@ nav{
 /* Affichage du sous-menu au survol */
 .menu-item:hover .sousmenu {
   display: block;
+}
+
+/*----------------------- 
+      Page d'acceuil
+-----------------------*/
+
+#presentation{
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+#presentation ul{
+  margin: 80px 20px;
+}
+
+#presentation ul li{
+  width: 30%;
+  list-style-type: none;
+  text-align: justify;
+  float: left;
+  margin: 0 20px;
+}
+
+#image_pongiste{
+  width: 100%;
+}
+
+#image_logo{
+  width: 100%;
+}
+
+#image_tennis{
+  width: 100%;
+}
+
+#image_match{
+  width: 100%;
 }
 
 
@@ -276,7 +301,7 @@ nav{
 /*----------------------- 
   Règlement 
 -----------------------*/
-h1 {
+h1, h2 {
   text-align: center;
 }
 
@@ -287,6 +312,8 @@ h1 {
 .reglement {
   width: 600px;
   margin: 10px;
+  border: #142654 dashed 5px;
+  
 }
 
 @media only screen 
