@@ -537,13 +537,14 @@ h6{
     /* container des headers et footers */
     .wrapper{
       background-color: #142654;
-      height: 150px;
+      height: 100px;
     }
 
     /* logo entreprise deux */
     #logo{
       float: left;
       height: 150px;
+      top: -10px;
     }
 
   nav{
@@ -558,14 +559,17 @@ h6{
           Menu 
     -----------------------*/
 
-  nav2 {
+<<<<<<< HEAD
+
+=======
+  .menu2 {
       position: relative;
       background-color: #333;
       padding: 10px 20px;
       border-radius: 5px;
   }
 
-  nav2 span {
+  .menu span {
       color: white;
       font-size: 18px;
       cursor: pointer;
@@ -596,20 +600,19 @@ h6{
       display: block;
       z-index: 1;
   }
+>>>>>>> f2446ef7a3df607f443b4ad7cef0fecf2568a41e
 
     /*----------------------- 
           accueil
     -----------------------*/
-
-    #présentation ul{
-      margin: auto;
+    #box_presentation_1{
+      width: 95%;
     }
-
-    #présentation ul li{
-      width: 100%;
-      float: none;
-      list-style-type: disc;
+    #box_presentation_2{
+      width: 90%;
     }
-
+    #box_presentation_3{
+      width: 90%;
+    }
   }
   
