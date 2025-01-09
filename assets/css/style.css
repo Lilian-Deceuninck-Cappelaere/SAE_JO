@@ -6,12 +6,12 @@ body {
     margin: 0;/*marge extérieur a 0*/
     margin-top: 200px; 
     padding: 0;/*marge intérieur a 0*/
-    cursor: url("../img/icone.png"), auto;
+    cursor: url("../img/icone.png"), auto;    /*Permet de modifier le curseur de la souris en raquette de tennis de table*/
     width: 100%;
 }
 
 a:hover {
-  cursor: url("../img/balle.png"), auto;
+  cursor: url("../img/balle.png"), auto; /*Permet de modifier le curseur de la souris en balle de tennis de table*/
 }
 
 .clear{
