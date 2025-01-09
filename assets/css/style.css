@@ -52,6 +52,10 @@ nav{
   margin: 50px 0 0 10%;
 }
 
+.menu2 {
+  display: none;
+}
+
 
 /*----------------------- 
          Footer 
@@ -437,8 +441,9 @@ h1, h2 {
 
 #evolutionmarche{
   display:block;
+  margin: 30px 0 30px 0;
   width: 30%;
-  margin: 0 auto;
+  float:right;
 }
 
 .TTFR{/*Style appliqué à la partie traitant du tennis de table en France sur la partie économie*/
@@ -534,6 +539,10 @@ h6{
       align-items: center;
     
     }
+
+    header{
+      position: relative;
+    }
     /* container des headers et footers */
     .wrapper{
       background-color: #142654;
@@ -559,9 +568,6 @@ h6{
           Menu 
     -----------------------*/
 
-<<<<<<< HEAD
-
-=======
   .menu2 {
       position: relative;
       background-color: #333;
@@ -600,7 +606,6 @@ h6{
       display: block;
       z-index: 1;
   }
->>>>>>> f2446ef7a3df607f443b4ad7cef0fecf2568a41e
 
     /*----------------------- 
           accueil
@@ -614,5 +619,31 @@ h6{
     #box_presentation_3{
       width: 90%;
     }
+
+    /*----------------------- 
+          réglement
+    -----------------------*/
+    .reglement{
+      width: 100%;
+      border: 0;
+      margin: 0;
+      padding: 0;
+    }
+
+    #dimension{
+      width: 100%;
+    }
+
+    /*----------------------- 
+          étude de marché
+    -----------------------*/
+    #evolutionmarche{
+      width: 100%;
+    }
+
+    #imggraphe{
+      width: 100%;
+    }
+
   }
   
