@@ -7,6 +7,7 @@ body {
     margin-top: 200px; 
     padding: 0;/*marge intérieur a 0*/
     cursor: url("../img/icone.png"), auto;
+    width: 100%;
 }
 
 a:hover {
@@ -342,7 +343,8 @@ h1, h2 {
 .reglement {
   width: 600px;
   height: 470px;
-  margin: 30px;
+  margin: 50px;
+  align-self: center;
   padding: 0 10px 10px 10px;
   display: inline-block;
   border: #142654 dashed 5px;
