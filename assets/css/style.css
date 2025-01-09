@@ -190,32 +190,57 @@ nav2{
 
 #presentation{
   margin: 0 auto;
-  padding: 0 10px;
+  padding: 0 50px;
 }
 
-#presentation ul{
-  margin: 80px 20px;
+
+#box_presentation_1{
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 54px;
+  border-radius: 5px;
 }
 
-#presentation ul li{
-  width: 30%;
-  list-style-type: none;
-  text-align: justify;
+
+#box_presentation_2{
+  margin-top: 50px;
+  width: 40%;
+  float : left;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 54px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+#box_presentation_3{
+  margin-top: 50px;
+  width: 40%;
+  float : right;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 54px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+
+#image_logo{
   float: left;
-  margin: 0 20px;
+  display: block;
+  width: 15%;
+  margin-top: 120px;
+  margin-left: 20px;
+  margin-right: 30px;;
 }
+
+
 
 #image_pongiste{
   width: 100%;
 }
 
-#image_logo{
-  width: 60%;
-  display: block;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
+
 
 #image_tennis{
   width: 100%;
@@ -254,6 +279,7 @@ h5{
 
 .arena{
   color: black;
+  text-decoration: none;
 }
 
 .arena:hover{
