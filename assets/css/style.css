@@ -5,6 +5,11 @@ body {
     font-family: Arial, sans-serif; /*met la police en Arial sans-serif*/
     margin: 0;/*marge extérieur a 0*/
     padding: 0;/*marge intérieur a 0*/
+    cursor: url("../img/icone.png"), auto;
+}
+
+a:hover {
+  cursor: url("../img/balle.png"), auto;
 }
 
 .clear{
@@ -311,10 +316,13 @@ h1, h2 {
 
 .reglement {
   width: 600px;
-  margin: 10px;
+  height: 470px;
+  margin: 30px;
+  padding: 0 10px 10px 10px;
+  display: inline-block;
   border: #142654 dashed 5px;
-  
 }
+
 
 @media only screen 
   and (min-width: 430px) 
