@@ -6,6 +6,7 @@ body {
     margin: 0;/*marge extérieur a 0*/
     padding: 0;/*marge intérieur a 0*/
     cursor: url("../img/icone.png"), auto;
+    width: 100%;
 }
 
 a:hover {
@@ -99,7 +100,7 @@ nav{
 
 
 /* fixation du footer en bas de page */
-/* footer{ 
+/* footer{
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -317,7 +318,8 @@ h1, h2 {
 .reglement {
   width: 600px;
   height: 470px;
-  margin: 30px;
+  margin: 50px;
+  align-self: center;
   padding: 0 10px 10px 10px;
   display: inline-block;
   border: #142654 dashed 5px;
