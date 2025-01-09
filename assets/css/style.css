@@ -479,7 +479,7 @@ h6{
           Menu 
     -----------------------*/
 
-    nav2 {
+  nav2 {
       position: relative;
       background-color: #333;
       padding: 10px 20px;
@@ -517,6 +517,20 @@ h6{
       display: block;
       z-index: 1;
   }
+
+    /*----------------------- 
+          accueil
+    -----------------------*/
+
+    #présentation ul{
+      margin: auto;
+    }
+
+    #présentation ul li{
+      width: 100%;
+      float: none;
+      list-style-type: disc;
+    }
 
   }
   
