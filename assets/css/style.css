@@ -403,9 +403,12 @@ h1, h2 {
       -----------------------*/
 
 
-    body{font-family: Arial, sans-serif; /*met la police en Arial sans-serif*/
-      margin: 0;/*marge extérieur a 0*/
-      padding: 0;/*marge intérieur a 0*/
+    body{font-family: Arial, sans-serif;
+      margin: auto;
+      padding: auto;
+      background-color: #f4f4f4;
+      justify-content: center;
+      align-items: center;
     
     }
     /* container des headers et footers */
