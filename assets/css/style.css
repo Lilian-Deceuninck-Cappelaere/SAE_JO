@@ -202,15 +202,25 @@ footer{
 }
 
 #image_logo{
-  width: 100%;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 #image_tennis{
   width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 #image_match{
   width: 100%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 figcaption{
@@ -229,9 +239,30 @@ figcaption{
 }
 
 h5{
-  font-size: 125%;
+  font-size: 175%;
   text-align: center;
   color: #076EA9;
+}
+
+.arena{
+  color: black;
+}
+
+.arena:hover{
+  color: black;
+}
+
+.arena img{
+  display: none;
+  position: absolute;
+  top: 250px;
+  left: 20px;
+  border-radius: 5px;
+  height: 400px;
+}
+
+.arena:hover img{
+  display: inline;
 }
 
 /*----------------------- 
