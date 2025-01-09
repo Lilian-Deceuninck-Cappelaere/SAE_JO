@@ -47,7 +47,7 @@ header{
   height: 150px;
 }
 
-nav{
+menu2{
   float: left;
   margin: 50px 0 0 10%;
 }
@@ -152,7 +152,7 @@ footer{
   background-color: #828282;
 }
 
-nav2{
+.menu2{
   display: none;
 }
 
@@ -615,7 +615,7 @@ h6{
       top: -10px;
     }
 
-  header nav{
+  header menu2{
     display: none;
   }
   #logo{
@@ -628,13 +628,13 @@ h6{
     -----------------------*/
 
 
-    nav {
+    menu2 {
       background-color: #333;
       padding: 0;
 
   }
 
-  nav ul {
+  menu2 ul {
       list-style: none;
       margin: 0;
       padding: 0;
@@ -642,11 +642,11 @@ h6{
 
   }
 
-  nav ul li {
+  menu2 ul li {
       margin: 0;
   }
 
-  nav ul li a {
+  menu2 ul li a {
       display: block;
       color: white;
       text-decoration: none;
