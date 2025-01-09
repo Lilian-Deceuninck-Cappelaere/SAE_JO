@@ -390,6 +390,31 @@ h1, h2 {
   border: #142654 dashed 5px;
 }
 
+/*------------------------
+    Etude de marché
+------------------------*/
+.economie{/*Propriétés pour la page économie*/
+  margin: 0 15px 0 15px;
+  align-self: center;
+}
+
+#imggraphe{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+}
+#evolutionmarche{
+  display:block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.TTFR{/*Style appliqué à la partie traitant du tennis de table en France sur la partie économie*/
+  display: block;  
+  width: 100%;
+}
+
+
 
 /*----------------------- 
      Mentions légales
