@@ -411,14 +411,67 @@ h1, h2 {
 }
 
 .reglement {
-  width: 600px;
-  height: 470px;
+  width: 50%;
+  height: 30%;
   margin: 50px;
-  align-self: center;
   padding: 0 10px 10px 10px;
   display: inline-block;
   border: #142654 dashed 5px;
 }
+
+
+#box_rouge {
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  background-color: rgba(255, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+
+#box_vert {
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  background-color: rgba(0, 255, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+  text-align: justify;
+}
+
+#box_noir {
+  color: #f4f4f4;
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+
+#box_jaune {
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+
+#box_bleu {
+  width: 50%;
+  float: left;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+
 
 /*------------------------
     Etude de marché
@@ -464,49 +517,14 @@ h6{
 }
 
 
-.box_mentions{
+.box{
   width: 100%;
   height:200px;
   line-height: normal;
   margin: 50px 50px;
 }
 
-
-#box_editeur{
-  width: 50%;
-  float: right;
-  margin-left: 20px;
-  background-color: rgba(0, 0, 255, 0.2);
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-right: 100px;
-}
-
-
-#box_chef{
-  width: 50%;
-  float: left;
-  margin-right: 20px;
-  background-color: rgba(255, 255, 0, 0.2);
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-right: 100px;
-}
-
-
-#box_droitauteur{
-  width: 50%;
-  float: right;
-  margin-left: 20px;
-  background-color: rgba(0, 255, 0, 0.2);
-  border-radius: 10px;
-  padding: 10px 20px;
-  margin-right: 100px;
-  text-align: justify;
-}
-
-
-#box_hebergeur{
+#box_hebergeur {
   width: 50%;
   float: left;
   margin-right: 20px;
@@ -517,6 +535,38 @@ h6{
 }
 
 
+#box_editeur {
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  background-color: rgba(0, 0, 255, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+
+
+#box_chef {
+  width: 50%;
+  float: left;
+  margin-right: 20px;
+  background-color: rgba(255, 255, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+}
+
+
+#box_droitauteur {
+  width: 50%;
+  float: right;
+  margin-left: 20px;
+  background-color: rgba(0, 255, 0, 0.2);
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-right: 100px;
+  text-align: justify;
+}
 
 
 @media only screen 
