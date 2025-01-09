@@ -615,6 +615,8 @@ h6{
       top: -10px;
     }
 
+  header nav{
+    display: none;
   }
   #logo{
     width: 117px;
