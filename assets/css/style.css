@@ -424,13 +424,18 @@ h1, h2 {
   align-self: center;
 }
 
-#evolutionmarche{
+#imggraphe{
+  float: right;
   display: block;
   width: 30%;
-  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
-#imggraph{
+
+#evolutionmarche{
   display:block;
   margin: 30px 0 30px 0;
   width: 30%;
@@ -438,8 +443,8 @@ h1, h2 {
 }
 
 .TTFR{/*Style appliqué à la partie traitant du tennis de table en France sur la partie économie*/
-  display: block;  
   width: 100%;
+  text-align: justify;
 }
 
 
@@ -533,13 +538,14 @@ h6{
     /* container des headers et footers */
     .wrapper{
       background-color: #142654;
-      height: 150px;
+      height: 100px;
     }
 
     /* logo entreprise deux */
     #logo{
       float: left;
       height: 150px;
+      top: -10px;
     }
 
   nav{
@@ -554,14 +560,14 @@ h6{
           Menu 
     -----------------------*/
 
-    nav2 {
+  .menu2 {
       position: relative;
       background-color: #333;
       padding: 10px 20px;
       border-radius: 5px;
   }
 
-  nav2 span {
+  .menu span {
       color: white;
       font-size: 18px;
       cursor: pointer;
@@ -593,5 +599,17 @@ h6{
       z-index: 1;
   }
 
+    /*----------------------- 
+          accueil
+    -----------------------*/
+    #box_presentation_1{
+      width: 95%;
+    }
+    #box_presentation_2{
+      width: 90%;
+    }
+    #box_presentation_3{
+      width: 90%;
+    }
   }
   
