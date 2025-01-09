@@ -684,10 +684,10 @@ h6{
     -----------------------*/
 
 
-    menu {
-      background-color: #333;
+    nav {
+      background-color: #142654;
       padding: 0;
-
+      align-items: flex-start;
   }
 
   menu ul {
@@ -695,7 +695,6 @@ h6{
       margin: 0;
       padding: 0;
       display: flex;
-
   }
 
   menu ul li {
