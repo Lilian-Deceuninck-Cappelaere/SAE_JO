@@ -615,8 +615,6 @@ h6{
       top: -10px;
     }
 
-  header nav{
-    display: none;
   }
   #logo{
     width: 117px;
@@ -629,9 +627,9 @@ h6{
 
 
     nav {
-      background-color: #333;
+      background-color: #142654;
       padding: 0;
-
+      align-items: flex-start;
   }
 
   nav ul {
@@ -639,7 +637,6 @@ h6{
       margin: 0;
       padding: 0;
       display: flex;
-
   }
 
   nav ul li {
