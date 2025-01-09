@@ -425,10 +425,16 @@ h1, h2 {
 }
 
 #imggraphe{
+  float: right;
   display: block;
   width: 30%;
-  margin: 0 auto;
+  margin-top: 75px;
+  margin-bottom: 150px;
+  margin-right: 20px;
+  margin-left: 20px;
 }
+
+
 #evolutionmarche{
   display:block;
   width: 30%;
@@ -436,8 +442,8 @@ h1, h2 {
 }
 
 .TTFR{/*Style appliqué à la partie traitant du tennis de table en France sur la partie économie*/
-  display: block;  
   width: 100%;
+  text-align: justify;
 }
 
 
